@@ -1,0 +1,63 @@
+
+#content {
+    max-width: 600px;
+    border: 1px solid darkgrey;
+    margin: 30px auto 10px;
+    padding:40px;
+}
+
+#statement{
+
+    max-width: 80%;
+    margin: 30px auto 0px;
+    line-height: 1.3em;
+}
+
+#title {
+    text-align: center;
+    font-size: 24pt;
+    margin: 10px auto 15px;
+}
+
+#schoolname {
+    text-align: center;
+    font-size: 10pt;
+    color:#035f9c;
+    margin: 0px;
+}
+
+
+.italics{
+    font-style: italic;
+}
+
+p{
+    font-size: 12pt;
+}
+
+hr{
+    width: 80%;
+    height:1px;
+    margin: 5px auto;
+    background-color: #ddd;
+    border-color: #fff;
+
+}
+
+
+img {
+    width: 20%;
+    display: block;
+    margin: 40px auto 0px;
+
+}
+
+
+ol {
+    width: 100%;
+    margin: 0px auto;
+}
+
+li {
+    padding: 10px;
+}
