@@ -9,6 +9,7 @@ function changeTheme() {
     if (current === 'ocean') {
         document.body.style.backgroundImage = "url('https://wddbyui.github.io/wdd131/images/ocean.jpg')";
         pageContent.style.fontFamily = "Papyrus, fantasy";
+        pageContent.style.color = 'blue';
     } else if (current === 'forest') {
         document.body.style.backgroundImage = "url('https://wddbyui.github.io/wdd131/images/forest.jpg')";
         pageContent.style.fontFamily = "Impact, sans-serif";
