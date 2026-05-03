@@ -26,7 +26,6 @@
     margin: 0px;
 }
 
-
 .italics{
     font-style: italic;
 }
@@ -44,14 +43,12 @@ hr{
 
 }
 
-
 img {
     width: 20%;
     display: block;
     margin: 40px auto 0px;
 
 }
-
 
 ol {
     width: 100%;
