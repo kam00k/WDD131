@@ -57,8 +57,11 @@ footer {
     .menu-btn {
         display: none;
     }
-    nav {
+    nav a{
         display: inline;
+    }
+    nav a{
+        text-align: right;
     }
 }
 
