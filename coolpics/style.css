@@ -11,7 +11,7 @@ footer {
     text-align: center;
 }
 nav {
-    margin: 1em auto;
+    margin: 1rem auto;
 }
 header{
     height: 150px;
@@ -58,7 +58,6 @@ nav a:hover {
 }
 footer {
   margin: auto;
-  border: 1px solid #ccc;
   padding: 1rem;
   background-color: slateblue;
   text-align: center;
