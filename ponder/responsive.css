@@ -26,14 +26,21 @@ section {
   margin: 1em;
   border: 1px solid #ccc;
 }
+
 nav a {
     padding: 20px;
     color: black;
-    display: none;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-top: 1px solid gray;
 }
 nav a:hover {
     text-decoration: none;
     color: #616061;
+}
+.hide{
+    display: none;
 }
 .menu-btn {
     cursor: pointer;
@@ -45,6 +52,15 @@ nav a:hover {
     height: 4px;
     background-color: black;
     margin: 5px 0;
+    transition: .4s;
+}
+.change .bar1 {
+  transform: translate(0, 8.5px) rotate(-45deg);
+}
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -8.5px) rotate(45deg);
 }
 footer {
     text-align: center;
@@ -54,14 +70,12 @@ footer {
     main {
         grid-template-columns: 1fr 1fr;
     }
-    .menu-btn {
-        display: none;
-    }
     nav a{
         display: inline;
+        text-align: center;
     }
-    nav a{
-        text-align: right;
+    nav{
+        text-align: center;
     }
 }
 
