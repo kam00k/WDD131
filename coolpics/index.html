@@ -6,17 +6,18 @@
         <meta name="author" content="Jack Wilson">
         <link rel="stylesheet" href="normalize.min.css">
         <link rel="stylesheet" href="style.css">
-        <title>Responsive Design</title>
+        <script src="modal-button.js" defer></script>
+        <title>Responsive Design Pt2</title>
     </head>
     <body>
         <header>
             <h1>
                 Cool Pics 📷
             </h1>
-            <button class="menu">
+            <button class="menu-button">
                 Menu
             </button>
-            <nav>
+            <nav class = "hide">
                 <a href="#">Home</a>
                 <a href="#">Profile</a>
                 <a href="#">Places</a>
@@ -24,37 +25,46 @@
                 <a href="#">Contact Us</a>
             </nav>
         </header>
-        <main>
-            <section>
-                <img src="images/coolpic.jpg" alt="cool picture">
-            </section>
-            <section>
-                <img src="images/coolpic.jpg" alt="cool picture">
-            </section>
-            <section>
-                <img src="images/coolpic.jpg" alt="cool picture">
-            </section>
-            <section>
-                <img src="images/coolpic.jpg" alt="cool picture">
-            </section>
-            <section>
-                <img src="images/coolpic.jpg" alt="cool picture">
-            </section>
-            <section>
-                <img src="images/coolpic.jpg" alt="cool picture">
-            </section>
-            <section>
-                <img src="images/coolpic.jpg" alt="cool picture">
-            </section>
-            <section>
-                <img src="images/coolpic.jpg" alt="cool picture">
-            </section>
-            <section>
-                <img src="images/coolpic.jpg" alt="cool picture">
+        <main >
+            <h2>
+                Current Work
+            </h2>
+            <section class="picture-set">
+                <figure>
+                    <img src="images/coolpic_sm.jpg" alt="cool picture">
+                </figure>
+                <figure>
+                    <img src="images/coolpic_sm.jpg" alt="cool picture">
+                </figure>
+                <figure>
+                    <img src="images/coolpic_sm.jpg" alt="cool picture">
+                </figure>
+                <figure>
+                    <img src="images/coolpic_sm.jpg" alt="cool picture">
+                </figure>
+                <figure>
+                    <img src="images/coolpic_sm.jpg" alt="cool picture">
+                </figure>
+                <figure>
+                    <img src="images/coolpic_sm.jpg" alt="cool picture">
+                </figure>
+                <figure>
+                    <img src="images/coolpic_sm.jpg" alt="cool picture">
+                </figure>
+                <figure>
+                    <img src="images/coolpic_sm.jpg" alt="cool picture">
+                </figure>
+                <figure>
+                    <img src="images/coolpic_sm.jpg" alt="cool picture">
+                </figure>
             </section>
         </main>
+        <dialog>
+            <img>
+            <button class="close-viewer">X</button>
+        </dialog>
         <footer>
-            Jack Wilson's Photography Emporium 
+            Jack Wilson's Better Photography Emporium 
         </footer>
     </body>
 </html>
